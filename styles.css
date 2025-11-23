@@ -56,13 +56,18 @@ hr {
 #passPreview {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     color: #55F991;
 }
 
 #preview1, #preview2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #273549;
     height: 39px;
     width: 211px;
     border-radius: 5px;
     text-align: center;
+
 }
