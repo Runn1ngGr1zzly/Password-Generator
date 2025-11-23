@@ -5,12 +5,32 @@ body {
     font-family: 'Karla', sans-serif, Arial, Helvetica;
 }
 
+h1 {
+   margin-bottom: 2px;
+}
+
+p {
+    margin-bottom: 75px;
+}
+
+hr {
+    display: block;
+    border: solid 1px #2F3E53;
+    width: 446px;
+    height: 0px;
+    margin: 0 auto 40px auto;
+}
+
+
 #container {
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     height: 550px;
     width: 550px;
     border-radius: 10px;
     margin: 40px auto;
+    padding-left: 30px;
 }
 
 #generator-button {
@@ -20,6 +40,7 @@ body {
     color: white;
     height: 42px;
     width: 191px;
+    margin-bottom: 40px;
 }
 
 #generator-button:active {
@@ -28,14 +49,14 @@ body {
 
 .second-heading {
     color: #4ADF86;
+    margin-top: 2px;
+    margin-bottom:2px;
 }
 
 #passPreview {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 100px auto;
-    color: white;
+    justify-content: space-evenly;
+    color: #55F991;
 }
 
 #preview1, #preview2 {
@@ -43,4 +64,5 @@ body {
     height: 39px;
     width: 211px;
     border-radius: 5px;
+    text-align: center;
 }
